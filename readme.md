@@ -43,3 +43,11 @@ Sample Output
 Your final product may look something like this:
 
 ![sample](sample.png)
+
+tasks
+
+[] Make Database in antares
+[] Load the data into the Database
+[] Display data in the sql page
+[] figure out how to add koalla to data
+[] ability to delete

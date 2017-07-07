@@ -1,7 +1,25 @@
 id	name	gender	age	ready_for_transfer	notes
-1	Scotty	M	4	Y	Born in Guatemala
-2	Jean	F	5	Y	Allergic to lots of lava
-3	Ororo	F	7	N	loves listening to Paula (Abdul)
-4	Logan	M	15	N	Love the sauna
-5	Charlie	M	9	Y	Favorite band is Nirvana
-6	Betsy	F	4	Y	Has a pet iguana
+(1,	"Scotty",	M,	4,	Y,	"Born in Guatemala"),
+(2,	"Jean",	F,	5,	Y,	"Allergic to lots of lava"),
+(3,	"Ororo",	F,	7,	N,	"loves listening to Paula (Abdul)"),
+(4	"Logan",	M,	15,	N,	"Love the sauna"),
+(5	"Charlie", M, 9,	Y, "Favorite band is Nirvana"),
+(6	"Betsy",	F,	4,	Y,	"Has a pet iguana");
+
+
+CREATE TABLE koalas (
+    id serial PRIMARY KEY,
+    name character varying(12),
+    gender character varying(7),
+    age integer,
+    ready_for_transfer boolean,
+    notes character varying(12)
+);
+
+
+('Scotty', 'M',	4,	true,	'Born in Guatemala'),
+('Jean',	'F', 5,	true, 'Allergic to lots of lava'),
+('Ororo', 'F',	7,	false, 'loves listening to Paula (Abdul)'),
+('Logan', 'M',	15,	false, 'Love the sauna'),
+('Charlie', 'M', 9, true, 'Favorite band is Nirvana'),
+('Betsy', 'F',	4, true, 'Has a pet iguana');
