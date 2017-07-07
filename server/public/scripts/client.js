@@ -89,7 +89,15 @@ function appendToDom(koalas){
     tr.append('<td><button class="deleteButton" data-k.id="' + k.id + '">Delete</button></td>');
     $('#viewKoalas').append(tr);
 
-
   }
-
 }
+
+// $('#viewKoalas').on('click', 'transferButton', function(){
+//   var selectedTransfer = $(this).parent().parent().data('koalas');
+//   //selectedTransfer = true;
+//   $.ajax({
+//     type: 'PUT',
+//
+//
+//   });
+// });
